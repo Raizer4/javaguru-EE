@@ -1,6 +1,5 @@
 package by.javaguru.http;
 
-import by.javaguru.http.HttpServer;
 
 public class HttpServerRunner {
 

@@ -26,7 +26,6 @@ public class HttpClientRunner {
                 .build();
 
         var response1 = httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString());
-        var response2 = httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString());
         var response3 = httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString());
 
         System.out.println(response3.get().headers());
